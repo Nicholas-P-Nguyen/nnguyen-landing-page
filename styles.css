@@ -101,12 +101,37 @@ h1 {
 
 /* End call to action */
 
-
-
-
 /* Start of the quote section */
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote {
+    width: 660px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.signature {
+    margin-top: 16px;
+    padding-left: 370px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 /* End of the quote section */
+
+/* Start call to action */
+
+
+
+/* End call to action  */
 ul {
     display: flex;
     list-style-type: none;
