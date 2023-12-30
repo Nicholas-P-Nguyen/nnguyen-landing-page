@@ -6,9 +6,11 @@ body {
     display: flex;
 }
 
+/* Start of hero/header section */
+
 .hero {
     background-color: #1F2937;
-    height: 700px;
+    height: 500px;
 }
 
 .header {
@@ -17,7 +19,6 @@ body {
     align-items: center;
     font-size: 24px;
     padding: 0px 120px;
-
 }
 
 .logo {
@@ -28,13 +29,14 @@ body {
 .main-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .body {
     display: flex;
     flex-direction: column;
     padding: 0px 120px;
-    max-width: 500px;
+    width: 400px;
 }
 
 .hero-main-text {
@@ -54,12 +56,37 @@ button {
     width: 100px;
 }
 
-img {
-    width: 300px;
+.rocky-mylo {
+    width: 700px;
     height: auto;
-    margin-right: 170px;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+/* End of hero/header section */
+
+
+/* Start call to action */
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.illustration-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+.content {
+
+    height: auto;
+    max-width: 200px;
+}
+
+/* End call to action */
 ul {
     display: flex;
     list-style-type: none;
@@ -71,4 +98,10 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
 }
