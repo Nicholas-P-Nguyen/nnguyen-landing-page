@@ -43,6 +43,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 .hero-secondary-text {
@@ -67,26 +68,45 @@ button {
 
 /* Start call to action */
 
-.call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
 }
 
 .illustration-container {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 100px;
 }
 
-
-.content {
-
+.collage {
     height: auto;
-    max-width: 200px;
+    width: 270px;
+    border: 6px solid #3882F6;
+    /* how to round corners */
+    border-radius: 25px;
 }
+
+.text {
+    width: 270px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
 
 /* End call to action */
+
+
+
+
+/* Start of the quote section */
+
+/* End of the quote section */
 ul {
     display: flex;
     list-style-type: none;
@@ -98,10 +118,4 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-h1 {
-    font-size: 36px;
-    color: #1F2937;
-    text-align: center;
 }
