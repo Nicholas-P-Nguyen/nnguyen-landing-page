@@ -11,6 +11,9 @@ body {
 .hero {
     background-color: #1F2937;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -81,6 +84,7 @@ h1 {
 .illustration-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 52px;
     margin-bottom: 100px;
 }
@@ -107,6 +111,7 @@ h1 {
 
 .quote-container {
     display: flex;
+    flex: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
