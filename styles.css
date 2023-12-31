@@ -19,8 +19,14 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+    height: 100px;
+    width: 150px;
+}
+
+.logo img {
+    height: auto;
+    width: 140px;
+    margin-right: auto;
 }
 
 /* end of header section */
@@ -28,7 +34,7 @@ body {
 /* Start of hero section */
 .body-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     align-items: center;
     margin-bottom: 50px;
@@ -39,8 +45,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-basis: 400px;
-    padding: 0px 120px;
-    width: 400px;
+    text-align: left;
+    margin-right: 50px;
 }
 
 
