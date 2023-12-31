@@ -131,13 +131,18 @@ h1 {
 
 /* Start call to action */
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .action-container {
     background-color: #3882F6;
     width: 1000px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 250px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 25px;
